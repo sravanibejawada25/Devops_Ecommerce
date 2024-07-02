@@ -1,0 +1,21 @@
+# DevOps E-commerce Website
+
+This is a simple e-commerce website project that demonstrates the use of HTML, CSS, JavaScript, and a basic backend setup with Node.js and Express. The project also showcases basic DevOps practices including project structure organization and static file serving.
+
+## Project Structure
+
+```plaintext
+project-root/
+├── server.js           # Node.js server setup
+├── package.json        # Project dependencies and scripts
+├── views/              # Folder containing HTML files
+│   ├── home.html
+│   ├── about.html
+│   ├── contact.html
+│   └── ...
+├── images/             # Folder containing image files
+│   ├── logo.png
+│   ├── background.jpg
+│   └── ...
+└── db/                 # Folder containing database connection file
+    └── connection.js
