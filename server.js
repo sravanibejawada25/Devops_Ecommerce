@@ -57,3 +57,25 @@ app.delete('/api/products/:id', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+// server.js
+const express = require('express');
+const mongoose = require('mongoose');
+const dbConnection = require('./db/connection'); // Adjust the path as needed
+
+const app = express();
+const port = 3000;
+
+// Middleware
+app.use(express.json());
+
+// Routes
+// Define your routes here
+
+// Start server
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+// Connect to MongoDB
+dbConnection.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
