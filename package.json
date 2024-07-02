@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sravanibejawada25/Devops_Ecommerce#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
   }
 }
